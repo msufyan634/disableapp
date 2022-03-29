@@ -1,0 +1,17 @@
+.main-mynft {
+    background-image: url("../../Assets/about-us-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .inner-tile {
+        background: #FFFFFF;
+            border-radius: 20px;
+            border: 1px solid #D5D5D5;
+            padding: 10px;
+            margin-bottom: 10px;
+            h6 {
+                margin-top: 10px;
+                color: black;
+            }
+    }
+}

@@ -1,0 +1,33 @@
+.main-about {
+    
+    background: linear-gradient(165deg,#fcc696 0%,#f69fd4 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0;
+    .inner-img {
+        img {
+    
+            border-radius: 40px;
+            
+        }
+    }
+    .inner-content {
+      
+        .title {
+          
+            font-size: 56px;
+            line-height: 72px;
+            font-style: normal !important;
+            font-weight: bold !important;
+            text-transform: uppercase !important;
+            color: #6e2222;
+            letter-spacing: 5px;
+        }
+        
+    }
+    p{
+        color: #fff;    
+        font-size: 21px !important;
+    }
+}
