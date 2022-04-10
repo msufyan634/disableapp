@@ -2,13 +2,18 @@
     // background-image: url("../../../Assets/bg1.jpeg");
     // background-image: url("../../../Assets/kiwi-2.jpg");
     // background-color: #001D3D;
+    background-image: url("../../../Assets/background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    position: relative;
-
-    
+    // height: 100vh;
+    // padding-bottom: 40px;
+    // position: relative;
+    .biububuyb{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
     .modal-content {
         border-radius: 20px;
         .for-padding {
@@ -34,11 +39,11 @@
 
 
 .center {
-    position: absolute;
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    // position: absolute;
+    // left: 50%;
+    // top: 60%;
+    // transform: translate(-50%, -50%);
+    // text-align: center;
     }
     .minted{
         // color: #B87333;

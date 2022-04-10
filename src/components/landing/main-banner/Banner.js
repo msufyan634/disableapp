@@ -2,6 +2,8 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import './banner.scss';
 import { useWeb3React } from '@web3-react/core'
+import monki from '../../../Assets/monki.png'
+import founts from '../../../Assets/founts.png'
 import Mint, { PricePerNFT, CurrentlyMintedNfts } from '../../../hooks/MintAndPrice';
 import { Link } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
@@ -84,91 +86,97 @@ const Banner = () => {
             <div className="main-banner1">
                 <ToastContainer />
                 {/* <Navbar /> */}
-                <div className="center">
-                    <div>
-
-              
-                                <button className="btn-red" type="button" onClick={connectWallet} >
-                                    MINT NFTS
-                                </button>
-                                <h1 className="minted">Currently Minted : {cMinted}/160</h1>
+                <div className='biububuyb'>
+                    <div >
+                        <img src={founts} width="100%" />
+                        <p>Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry. Lorem
+                            Ipsum has been the industry's standard dummy text eve
+                            r since the 1500s, when an unknown printer took a galley
+                            of type and scrambled
+                            containing Lorem Ipsum passages, and more recently with desktop
+                            publishing software like Aldus PageMaker including versions of
+                            Lorem Ipsum.</p>
                     </div>
-                               
-                                <Modal isOpen={show} className="register-modal connect-modal" size="md"
-                                    aria-labelledby="contained-modal-title-vcenter"
-                                >
-                                    <ModalHeader >
-                                        <button type="button" className="close" data-dismiss="modal" onClick={() => setshow(false)} aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </ModalHeader>
-                                    <ModalBody className="modal-body">
-                                        <div className="container main-divs">
-                                            <h3 className="white text-center">MINT YOUR NFT</h3>
-                                            <div className="for-padding">
-                                                <ul className="list-inline text-center">
-                                                    <li className="list-inline-item">
-                                                        <p className="ptb20 white">MINT YOUR NFT FOR ONLY <strong>{(price) / 10 ** 18} FTM</strong></p>
-                                                    </li>
-                                                    <li className="list-inline-item">
-                                                        <img src="\opencanvas-assets\pop-up\mint-your-nft\fmt.jpeg" style={{ borderRadius: 20 }} width="30px" height="30px" className="img-fluid" alt="" />
-                                                    </li>
-                                                </ul>
+                    <div>
+                        <img src={monki} width="100%" />
+                    </div>
+                </div>
 
-                                                <div className="row">
-                                                    <div className="col-sm-12 text-center">
-                                                        <button className="btn-common" type="button" onClick={appoved}>Mint</button>
+                <Modal isOpen={show} className="register-modal connect-modal" size="md"
+                    aria-labelledby="contained-modal-title-vcenter"
+                >
+                    <ModalHeader >
+                        <button type="button" className="close" data-dismiss="modal" onClick={() => setshow(false)} aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </ModalHeader>
+                    <ModalBody className="modal-body">
+                        <div className="container main-divs">
+                            <h3 className="white text-center">MINT YOUR NFT</h3>
+                            <div className="for-padding">
+                                <ul className="list-inline text-center">
+                                    <li className="list-inline-item">
+                                        <p className="ptb20 white">MINT YOUR NFT FOR ONLY <strong>{(price) / 10 ** 18} FTM</strong></p>
+                                    </li>
+                                    <li className="list-inline-item">
+                                        <img src="\opencanvas-assets\pop-up\mint-your-nft\fmt.jpeg" style={{ borderRadius: 20 }} width="30px" height="30px" className="img-fluid" alt="" />
+                                    </li>
+                                </ul>
 
-                                                        <div className="ptb20">
-                                                            <a className="white" href="/">By connecting, I accept Kiwi's Terms of Service</a>
-                                                        </div>
-                                                    </div>
+                                <div className="row">
+                                    <div className="col-sm-12 text-center">
+                                        <button className="btn-common" type="button" onClick={appoved}>Mint</button>
+
+                                        <div className="ptb20">
+                                            <a className="white" href="/">By connecting, I accept Kiwi's Terms of Service</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {inProcess ?
+                                <div>
+                                    <h3 className="white text-center">MINTING YOUR NFT...</h3>
+                                    <div className="for-padding">
+                                        <ul className="list-inline text-center">
+
+                                            <li className="list-inline-item">
+                                                <img src="\opencanvas-assets\pop-up\mint-your-nft\fmt.jpeg" style={{ borderRadius: 20 }} width="30px" height="30px" className="img-fluid" alt="" />
+                                            </li>
+                                        </ul>
+                                        <div className="row">
+                                            <div className="col-sm-12 text-center">
+                                                <div className="ptb20">
+                                                    <h4 className="white">CONFIRM TRANSACTION FROM YOUR WALLET</h4>
                                                 </div>
                                             </div>
-
-                                            {inProcess ?
-                                                <div>
-                                                    <h3 className="white text-center">MINTING YOUR NFT...</h3>
-                                                    <div className="for-padding">
-                                                        <ul className="list-inline text-center">
-
-                                                            <li className="list-inline-item">
-                                                                <img src="\opencanvas-assets\pop-up\mint-your-nft\fmt.jpeg" style={{ borderRadius: 20 }} width="30px" height="30px" className="img-fluid" alt="" />
-                                                            </li>
-                                                        </ul>
-                                                        <div className="row">
-                                                            <div className="col-sm-12 text-center">
-                                                                <div className="ptb20">
-                                                                    <h4 className="white">CONFIRM TRANSACTION FROM YOUR WALLET</h4>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div> : null
-                                            }
-                                            {minted ?
-                                                <div>
-                                                    <h3 className="white text-center">YAYYY!</h3>
-                                                    <div className="for-padding">
-                                                        <div className="row">
-                                                            <div className="col-sm-12 text-center">
-                                                                <div className="ptb20">
-                                                                    <h4 className="white">YOUR NFT HAS BEEN MINTED</h4>
-                                                                    {/* <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p> */}
-                                                                </div>
-                                                                {/* <button className="btn-common" type="button" onClick={viewNFT} >VIEW YOUR NFTS</button> */}
-                                                                {/* <Link className="btn-common"  to="/" >VIEW YOUR NFTS</Link> */}
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div> : null
-                                            }
                                         </div>
-                                    </ModalBody>
-                                </Modal>
+                                    </div>
+                                </div> : null
+                            }
+                            {minted ?
+                                <div>
+                                    <h3 className="white text-center">YAYYY!</h3>
+                                    <div className="for-padding">
+                                        <div className="row">
+                                            <div className="col-sm-12 text-center">
+                                                <div className="ptb20">
+                                                    <h4 className="white">YOUR NFT HAS BEEN MINTED</h4>
+                                                    {/* <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p> */}
+                                                </div>
+                                                {/* <button className="btn-common" type="button" onClick={viewNFT} >VIEW YOUR NFTS</button> */}
+                                                {/* <Link className="btn-common"  to="/" >VIEW YOUR NFTS</Link> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> : null
+                            }
+                        </div>
+                    </ModalBody>
+                </Modal>
 
-                            
-                    </div>
+
             </div>
         </>
     )

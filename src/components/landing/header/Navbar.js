@@ -7,6 +7,7 @@ import { NavLink } from 'react-router-dom';
 import twitter from '../../../Assets/social/twitter.svg'
 import discord from '../../../Assets/social/discord.svg'
 // import opensea from '../../../Assets/social/opensea.svg'
+import logo from '../../../Assets/logo.png'
 import { Modal, ModalHeader, ModalBody } from "reactstrap";
 import Team from '../team/Team';
 import { Link } from 'react-scroll';
@@ -60,7 +61,9 @@ const Navbar = () => {
         <nav className="navbar" onClick={(e) => e.stopPropagation()}>
           <div className="nav-container">
             <NavLink exact to="/" className="nav-logo" >
-              DISABLED<br />APES
+              {/* <img src={logo} width="100%" height="auto"/> */}
+              {/* <span>DISABLED APES</span> */}
+              hhhhh
               {/* <i className="fa fa-code"></i> */}
             </NavLink>
 
@@ -76,7 +79,7 @@ const Navbar = () => {
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   exact
                   to="about"
@@ -86,7 +89,7 @@ const Navbar = () => {
                 >
                   Roadmap
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item" >
                 <Link
                   exact
@@ -106,11 +109,11 @@ const Navbar = () => {
                   className="nav-links white"
                   onClick={click ? handleClick : null}
                 >
-                  Team
+                  NFts
                 </Link>
               </li>
-              {/* <li className="mt6"><a className="social_link"><img src={twitter} /> </a></li> */}
-              {/* <li className="mt6"><a className="social_link"><img src={discord} /> </a></li> */}
+              <li className="mt6"><a className="social_link"><img src={twitter} /> </a></li>
+              <li className="mt6"><a className="social_link"><img src={discord} /> </a></li>
               {/* <li className="mt6"><a className="social_link"><img src={opensea} /> </a></li> */}
               {account ?
                 <button className="connect-btn" type="button" onClick={disconnectWallet} >Disconnect</button>
@@ -164,7 +167,6 @@ const Navbar = () => {
             </div>
           </ModalBody>
         </Modal>
-
         <section >
           <Banner />
         </section>
