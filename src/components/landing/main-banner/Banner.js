@@ -86,21 +86,21 @@ const Banner = () => {
             <div className="main-banner1">
                 <ToastContainer />
                 {/* <Navbar /> */}
+                
                 <div className='biububuyb'>
-                    <div >
-                        <img src={founts} width="100%" />
-                        <p>Lorem Ipsum is simply dummy text of the
+                    <div className='container' >
+                        {/* <p>Lorem Ipsum is simply dummy text of the
                             printing and typesetting industry. Lorem
                             Ipsum has been the industry's standard dummy text eve
                             r since the 1500s, when an unknown printer took a galley
                             of type and scrambled
                             containing Lorem Ipsum passages, and more recently with desktop
                             publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum.</p>
+                            Lorem Ipsum.</p> */}
                     </div>
-                    <div>
+                    {/* <div>
                         <img src={monki} width="100%" />
-                    </div>
+                    </div> */}
                 </div>
 
                 <Modal isOpen={show} className="register-modal connect-modal" size="md"

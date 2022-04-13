@@ -3,13 +3,26 @@ import './team.scss';
 const Team = () => {
     return (
         <>
-            <section className="main-team ptb"  id="team">
+            <section className="main-team" id="team">
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-12">
-                            <div className="inner-content ptb20">
-                                <h6 className="white">Our Team</h6>
-                                <h1 className="white">Meet our <br /> multi-skilled team</h1>
+                        <div className="col-sm-8">
+                            <div className="inner-content">
+                                <h1>Team</h1>
+                                <p>1buhbuybyb dwuibuyvbriub by8huinuiv iun8uh i8b87h i8h8h </p>
+                                <p>1buhbuybyb dwuibuyvbriub by8huinuiv iun8uh i8b87h i8h8h </p>
+                                <p>1buhbuybyb dwuibuyvbriub by8huinuiv iun8uh i8b87h i8h8h </p>
+                            </div>
+                        </div>
+                        <div className="col-sm-4">
+                            <div className="inner-content">
+                                <div className="inner-tile">
+                                    {/* <img src="\opencanvas-assets\landing-page\our-team\user-profile-picture.png" alt="" className="img-fluid " /> */}
+                                    <h5>CLAUD</h5>
+                                    <p className="">CO-FOUNDER</p>
+                                    <p className="">Coordinator disabled apes.</p>
+                                    <p className="">NFT specialist (addict).</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -22,49 +35,58 @@ const Team = () => {
                                             <div className="row">
                                                 <div className="col-sm-4">
                                                     <div className="inner-tile">
-                                                        <img src="\opencanvas-assets\landing-page\our-team\user-profile-picture.png" alt="" className="img-fluid " />
-                                                        <h5>Dura</h5>
-                                                        <p className="">FOUNDER</p>
+                                                        {/* <img src="\opencanvas-assets\landing-page\our-team\user-profile-picture.png" alt="" className="img-fluid " /> */}
+                                                        <h5>CLAUD</h5>
+                                                        <p className="">CO-FOUNDER</p>
+                                                        <p className="">Coordinator disabled apes.</p>
+                                                        <p className="">NFT specialist (addict).</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-sm-4">
                                                     <div className="inner-tile">
-                                                        <img src="\opencanvas-assets\landing-page\our-team\user-profile-picture.png" alt="" className="img-fluid " />
-                                                        <h5>Rasha</h5>
-                                                        <p className="">FOUNDER</p>
+                                                        {/* <img src="\opencanvas-assets\landing-page\our-team\user-profile-picture.png" alt="" className="img-fluid " /> */}
+                                                        <h5>CLAUD</h5>
+                                                        <p className="">CO-FOUNDER</p>
+                                                        <p className="">Coordinator disabled apes.</p>
+                                                        <p className="">NFT specialist (addict).</p>
                                                     </div>
                                                 </div>
-                                                <div className="col-sm-4">
-                                                    <div className="inner-tile">
-                                                        <img src="\opencanvas-assets\landing-page\our-team\user-profile-picture.png" alt="" className="img-fluid " />
-                                                        <h5>Marko</h5>
-                                                        <p className="">FOUNDER</p>
-                                                    </div>
-                                                </div>
+                                                 <div className="col-sm-4">
+                                                    {/* <div className="inner-tile"> */}
+                                                     <img src="/Assets/logo 3.png" alt="" className="img-fluid " />
+                                                        {/* <h5>CLAUD</h5>
+                                                        <p className="">CO-FOUNDER</p>
+                                                        <p className="">Coordinator disabled apes.</p>
+                                                        <p className="">NFT specialist (addict).</p> */}
+                                                    {/* </div> */}
+                                                </div> 
                                             </div>
-                                        <div className="row ptb20">
+                                            <div className="row ptb20">
                                                 <div className="col-sm-4">
                                                     <div className="inner-tile">
-                                                        <img src="\opencanvas-assets\landing-page\our-team\user-profile-picture.png" alt="" className="img-fluid " />
-                                                        <h5>NuZnoG</h5>
-                                                        <p className="">FOUNDER</p>
+                                                        <h5>CLAUD</h5>
+                                                        <p className="">CO-FOUNDER</p>
+                                                        <p className="">Coordinator disabled apes.</p>
+                                                        <p className="">NFT specialist (addict).</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-sm-4">
                                                     <div className="inner-tile">
-                                                        <img src="\opencanvas-assets\landing-page\our-team\user-profile-picture.png" alt="" className="img-fluid " />
-                                                        <h5>JP</h5>
-                                                        <p className="">FOUNDER</p>
+                                                        <h5>CLAUD</h5>
+                                                        <p className="">CO-FOUNDER</p>
+                                                        <p className="">Coordinator disabled apes.</p>
+                                                        <p className="">NFT specialist (addict).</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-sm-4">
                                                     <div className="inner-tile">
-                                                        <img src="\opencanvas-assets\landing-page\our-team\user-profile-picture.png" alt="" className="img-fluid " />
-                                                        <h5>Jack</h5>
-                                                        <p className="">FOUNDER</p>
+                                                        <h5>CLAUD</h5>
+                                                        <p className="">CO-FOUNDER</p>
+                                                        <p className="">Coordinator disabled apes.</p>
+                                                        <p className="">NFT specialist (addict).</p>
                                                     </div>
                                                 </div>
-                                                
+
                                             </div>
                                         </div>
                                         {/* <div class="carousel-item">

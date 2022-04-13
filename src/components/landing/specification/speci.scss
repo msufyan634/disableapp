@@ -1,0 +1,43 @@
+.main-speci {
+    
+    // background: linear-gradient(165deg,#fcc696 0%,#f69fd4 100%);
+    background-image: url("../../../Assets/specifications.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    h1{
+
+    color: #fff;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    }
+    .inner-img {
+        img {
+    
+            border-radius: 40px;
+            
+        }
+    }
+    .inner-content {
+      
+        .title {
+          
+            font-size: 42;
+            line-height: 72px;
+            font-style: normal !important;
+            font-weight: bold !important;
+            text-transform: uppercase !important;
+            color: #000;
+            // letter-spacing: 5px;
+        }
+        
+    }
+    p{
+        color: #fff;    
+        font-size: 16px !important;
+    }
+}

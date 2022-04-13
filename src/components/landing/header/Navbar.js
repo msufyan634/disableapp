@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 import twitter from '../../../Assets/social/twitter.svg'
 import discord from '../../../Assets/social/discord.svg'
 // import opensea from '../../../Assets/social/opensea.svg'
-import logo from '../../../Assets/logo.png'
+import logo from '../../../Assets/logo 1 large.png'
 import { Modal, ModalHeader, ModalBody } from "reactstrap";
 import Team from '../team/Team';
 import { Link } from 'react-scroll';
@@ -17,6 +17,10 @@ import Random from '../RandomNft/Random';
 import Faqs from '../faqs/Faqs';
 import Tab from '../../rarity/Tab';
 import Slider from '../../slider/Slider';
+import Roadmap from '../roadmap/Roadmap'
+
+import Specification from '../specification/Specification'
+import Ecosystem from '../ecosystem/Ecosystem'
 
 const Navbar = () => {
   const [show, setshow] = useState(false);
@@ -61,12 +65,10 @@ const Navbar = () => {
         <nav className="navbar" onClick={(e) => e.stopPropagation()}>
           <div className="nav-container">
             <NavLink exact to="/" className="nav-logo" >
-              {/* <img src={logo} width="100%" height="auto"/> */}
-              {/* <span>DISABLED APES</span> */}
-              hhhhh
+              {/* <img src={logo} width="20%" height="auto"/> */}
+              <span>DISABLED APES</span>
               {/* <i className="fa fa-code"></i> */}
             </NavLink>
-
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
                 <Link
@@ -112,8 +114,7 @@ const Navbar = () => {
                   NFts
                 </Link>
               </li>
-              <li className="mt6"><a className="social_link"><img src={twitter} /> </a></li>
-              <li className="mt6"><a className="social_link"><img src={discord} /> </a></li>
+       
               {/* <li className="mt6"><a className="social_link"><img src={opensea} /> </a></li> */}
               {account ?
                 <button className="connect-btn" type="button" onClick={disconnectWallet} >Disconnect</button>
@@ -129,8 +130,13 @@ const Navbar = () => {
                     )}`}
               </p>
             </ul>
-            <div className={click ? "nav-menu active" : "nav-menu"}>
+            {/* <div className={click ? "nav-menu active" : "nav-menu"}>
               <button className="connect-btn bbbbbbwcwe" type="button" onClick={disconnectWallet} >Mint</button>
+            </div> */}
+            <div>
+                  <a className="social_link"><img src={twitter} /> </a>
+
+              <a className="social_link"><img src={discord} /> </a>
             </div>
             <div className="nav-icon" onClick={handleClick}>
               <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
@@ -174,21 +180,24 @@ const Navbar = () => {
       <section id="about">
         <About />
       </section>
+      <section id="about">
+        <Specification />
+      </section>
       <section >
-        <Slider />
+        <Ecosystem />
       </section>
-      <section>
+      {/* <section>
         <Random />
-      </section>
+      </section> */}
       <section id="team">
         <Team />
       </section>
       <section id="category">
-        <Tab />
+        <Roadmap />
       </section>
-      <section id="faqs">
+      {/* <section id="faqs">
         <Faqs />
-      </section>
+      </section> */}
     </>
   )
 }

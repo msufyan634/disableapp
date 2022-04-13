@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.380c03ee.chunk.css",
+    "main.js": "/static/js/main.b7a13110.chunk.js",
+    "main.js.map": "/static/js/main.b7a13110.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.477fe1de.js",
+    "runtime-main.js.map": "/static/js/runtime-main.477fe1de.js.map",
+    "static/css/2.1993f7b2.chunk.css": "/static/css/2.1993f7b2.chunk.css",
+    "static/js/2.a3ce6022.chunk.js": "/static/js/2.a3ce6022.chunk.js",
+    "static/js/2.a3ce6022.chunk.js.map": "/static/js/2.a3ce6022.chunk.js.map",
+    "static/js/3.4ede7b0d.chunk.js": "/static/js/3.4ede7b0d.chunk.js",
+    "static/js/3.4ede7b0d.chunk.js.map": "/static/js/3.4ede7b0d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1993f7b2.chunk.css.map": "/static/css/2.1993f7b2.chunk.css.map",
+    "static/css/main.380c03ee.chunk.css.map": "/static/css/main.380c03ee.chunk.css.map",
+    "static/js/2.a3ce6022.chunk.js.LICENSE.txt": "/static/js/2.a3ce6022.chunk.js.LICENSE.txt",
+    "static/media/about.scss": "/static/media/2nd part NFT.3394a585.png",
+    "static/media/mynft.scss": "/static/media/about-us-background.ae5c8ad7.png",
+    "static/media/discord.05466c89.svg": "/static/media/discord.05466c89.svg",
+    "static/media/eco.scss": "/static/media/ecosystem1.70da13ce.png",
+    "static/media/founts.8cf64c1e.png": "/static/media/founts.8cf64c1e.png",
+    "static/media/banner.scss": "/static/media/header.b56f28fb.png",
+    "static/media/king_1.4969ab86.png": "/static/media/king_1.4969ab86.png",
+    "static/media/logo 1 large.176f563a.png": "/static/media/logo 1 large.176f563a.png",
+    "static/media/military_1.a34424c2.png": "/static/media/military_1.a34424c2.png",
+    "static/media/monki.4dd8c6c2.png": "/static/media/monki.4dd8c6c2.png",
+    "static/media/politician_1.0f38661b.png": "/static/media/politician_1.0f38661b.png",
+    "static/media/queen_1.1ea67767.png": "/static/media/queen_1.1ea67767.png",
+    "static/media/roadmap.scss": "/static/media/roadmap.e00991f0.png",
+    "static/media/speci.scss": "/static/media/specifications.8d27fb33.png",
+    "static/media/sport_1.052476e9.png": "/static/media/sport_1.052476e9.png",
+    "static/media/trade_1.0e196f77.png": "/static/media/trade_1.0e196f77.png",
+    "static/media/twitter.7ed175d0.svg": "/static/media/twitter.7ed175d0.svg",
+    "static/media/team.scss": "/static/media/yellow background.9f9c8975.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.477fe1de.js",
+    "static/css/2.1993f7b2.chunk.css",
+    "static/js/2.a3ce6022.chunk.js",
+    "static/css/main.380c03ee.chunk.css",
+    "static/js/main.b7a13110.chunk.js"
+  ]
+}
