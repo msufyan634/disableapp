@@ -1,7 +1,8 @@
 .site-footer
 {
   // background-color:#000000;
-  background: linear-gradient(165deg, #5d456c 0%, #b54689 100%);
+  // background: linear-gradient(165deg, #5d456c 0%, #b54689 100%);
+   background-image: url("../../../Assets/contact us.png");
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -10,7 +11,7 @@
 }
 .site-footer hr
 {
-  border-top-color:#bbb;
+  // border-top-color:#bbb;
   opacity:0.5
 }
 .site-footer hr.small

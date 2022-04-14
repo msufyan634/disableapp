@@ -113,9 +113,7 @@
 
 .connect-btn {
   border-radius: 10px;
-
-  background: linear-gradient(to top, #ff9472, #f2709c) !important;
-
+  background: linear-gradient(to top, #929eaa, #47525d) !important;
   border: none;
   color: white;
   padding: 4px 20px;
@@ -202,7 +200,8 @@
   border-radius: 0.125rem;
 }
 .modal-open .modal-content {
-  background: linear-gradient(165deg, #fcc696 0%, #f69fd4 100%);
+  // background: linear-gradient(165deg, #fcc696 0%, #f69fd4 100%);
+  background: linear-gradient(to top, #929eaa, #47525d) !important;
   background-size: cover;
   width: 100%;
   border-radius: 15px;

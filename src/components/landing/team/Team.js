@@ -9,9 +9,9 @@ const Team = () => {
                         <div className="col-sm-8">
                             <div className="inner-content">
                                 <h1>Team</h1>
-                                <p>1buhbuybyb dwuibuyvbriub by8huinuiv iun8uh i8b87h i8h8h </p>
-                                <p>1buhbuybyb dwuibuyvbriub by8huinuiv iun8uh i8b87h i8h8h </p>
-                                <p>1buhbuybyb dwuibuyvbriub by8huinuiv iun8uh i8b87h i8h8h </p>
+                                <p>A non-fungible token (NFT) is a unit of data stored on a digital ledger.</p>
+                                <p>A non-fungible token (NFT) is a unit of data stored on a digital. </p>
+                                <p>A non-fungible token (NFT) is a unit of data stored on. </p>
                             </div>
                         </div>
                         <div className="col-sm-4">

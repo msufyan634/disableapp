@@ -1,8 +1,15 @@
 .main-faqs {
+        background-image: url("../../../Assets/faq.png");
+        // background-color: black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
     .inner-side {
         .card {
             border: none;
-
+            background: none;
             .card-header {
                 background-color: transparent;
                 .btn {
@@ -11,8 +18,6 @@
                     text-align: left;
                     padding-left: 0;
                     white-space: unset!important;
-
-
                     &:hover {
                         color: #06678A;
                         text-decoration: none;

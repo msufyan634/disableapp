@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.380c03ee.chunk.css",
-    "main.js": "/static/js/main.b7a13110.chunk.js",
-    "main.js.map": "/static/js/main.b7a13110.chunk.js.map",
+    "main.css": "/static/css/main.16ebd194.chunk.css",
+    "main.js": "/static/js/main.43bd2913.chunk.js",
+    "main.js.map": "/static/js/main.43bd2913.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.477fe1de.js",
     "runtime-main.js.map": "/static/js/runtime-main.477fe1de.js.map",
     "static/css/2.1993f7b2.chunk.css": "/static/css/2.1993f7b2.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.4ede7b0d.chunk.js.map": "/static/js/3.4ede7b0d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.1993f7b2.chunk.css.map": "/static/css/2.1993f7b2.chunk.css.map",
-    "static/css/main.380c03ee.chunk.css.map": "/static/css/main.380c03ee.chunk.css.map",
+    "static/css/main.16ebd194.chunk.css.map": "/static/css/main.16ebd194.chunk.css.map",
     "static/js/2.a3ce6022.chunk.js.LICENSE.txt": "/static/js/2.a3ce6022.chunk.js.LICENSE.txt",
     "static/media/about.scss": "/static/media/2nd part NFT.3394a585.png",
     "static/media/mynft.scss": "/static/media/about-us-background.ae5c8ad7.png",
+    "static/media/footer.scss": "/static/media/contact us.e90feb10.png",
     "static/media/discord.05466c89.svg": "/static/media/discord.05466c89.svg",
-    "static/media/eco.scss": "/static/media/ecosystem1.70da13ce.png",
+    "static/media/faqs.scss": "/static/media/faq.deef1317.png",
     "static/media/founts.8cf64c1e.png": "/static/media/founts.8cf64c1e.png",
-    "static/media/banner.scss": "/static/media/header.b56f28fb.png",
     "static/media/king_1.4969ab86.png": "/static/media/king_1.4969ab86.png",
     "static/media/logo 1 large.176f563a.png": "/static/media/logo 1 large.176f563a.png",
     "static/media/military_1.a34424c2.png": "/static/media/military_1.a34424c2.png",
@@ -37,7 +37,7 @@
     "static/js/runtime-main.477fe1de.js",
     "static/css/2.1993f7b2.chunk.css",
     "static/js/2.a3ce6022.chunk.js",
-    "static/css/main.380c03ee.chunk.css",
-    "static/js/main.b7a13110.chunk.js"
+    "static/css/main.16ebd194.chunk.css",
+    "static/js/main.43bd2913.chunk.js"
   ]
 }

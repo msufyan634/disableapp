@@ -95,7 +95,7 @@ const Navbar = () => {
               <li className="nav-item" >
                 <Link
                   exact
-                  to="category"
+                  to="aboutus"
                   activeClassName="active"
                   className="nav-links text-white"
                   onClick={click ? handleClick : null}
@@ -106,12 +106,12 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link
                   exact
-                  to="team"
+                  to="nfts"
                   activeClassName="active"
                   className="nav-links text-white"
                   onClick={click ? handleClick : null}
                 >
-                  NFts
+                  NFTs
                 </Link>
               </li>
               <li className="nav-item">
@@ -183,27 +183,27 @@ const Navbar = () => {
           <Banner />
         </section>
       </div>
-      <section id="about">
+      <section id="aboutus">
         <About />
       </section>
-      <section id="about">
+      <section>
         <Specification />
       </section>
-      <section >
+      <section id="nfts">
         <Ecosystem />
       </section>
       {/* <section>
         <Random />
       </section> */}
-      <section id="team">
+      <section>
         <Team />
       </section>
       <section id="category">
         <Roadmap />
       </section>
-      {/* <section id="faqs">
+      <section id="faqs">
         <Faqs />
-      </section> */}
+      </section>
     </>
   )
 }
