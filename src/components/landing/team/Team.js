@@ -3,7 +3,7 @@ import './team.scss';
 const Team = () => {
     return (
         <>
-            <section className="main-team" id="team">
+            <section className="main-team ptb" id="team">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-8">
@@ -33,7 +33,7 @@ const Team = () => {
                                     <div className="carousel-inner">
                                         <div class="">
                                             <div className="row">
-                                                <div className="col-sm-4">
+                                                <div className="col-sm-4 paddZero">
                                                     <div className="inner-tile">
                                                         {/* <img src="\opencanvas-assets\landing-page\our-team\user-profile-picture.png" alt="" className="img-fluid " /> */}
                                                         <h5>CLAUD</h5>
@@ -42,7 +42,7 @@ const Team = () => {
                                                         <p className="">NFT specialist (addict).</p>
                                                     </div>
                                                 </div>
-                                                <div className="col-sm-4">
+                                                <div className="col-sm-4 paddZero">
                                                     <div className="inner-tile">
                                                         {/* <img src="\opencanvas-assets\landing-page\our-team\user-profile-picture.png" alt="" className="img-fluid " /> */}
                                                         <h5>CLAUD</h5>
@@ -51,7 +51,7 @@ const Team = () => {
                                                         <p className="">NFT specialist (addict).</p>
                                                     </div>
                                                 </div>
-                                                 <div className="col-sm-4">
+                                                 <div className="col-sm-4 paddZero">
                                                     {/* <div className="inner-tile"> */}
                                                      <img src="/Assets/logo 3.png" alt="" className="img-fluid " />
                                                         {/* <h5>CLAUD</h5>
@@ -62,7 +62,7 @@ const Team = () => {
                                                 </div> 
                                             </div>
                                             <div className="row ptb20">
-                                                <div className="col-sm-4">
+                                                <div className="col-sm-4 paddZero">
                                                     <div className="inner-tile">
                                                         <h5>CLAUD</h5>
                                                         <p className="">CO-FOUNDER</p>
@@ -70,7 +70,7 @@ const Team = () => {
                                                         <p className="">NFT specialist (addict).</p>
                                                     </div>
                                                 </div>
-                                                <div className="col-sm-4">
+                                                <div className="col-sm-4 paddZero">
                                                     <div className="inner-tile">
                                                         <h5>CLAUD</h5>
                                                         <p className="">CO-FOUNDER</p>
@@ -78,7 +78,7 @@ const Team = () => {
                                                         <p className="">NFT specialist (addict).</p>
                                                     </div>
                                                 </div>
-                                                <div className="col-sm-4">
+                                                <div className="col-sm-4 paddZero">
                                                     <div className="inner-tile">
                                                         <h5>CLAUD</h5>
                                                         <p className="">CO-FOUNDER</p>

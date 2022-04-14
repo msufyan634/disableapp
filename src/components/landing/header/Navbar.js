@@ -66,16 +66,16 @@ const Navbar = () => {
           <div className="nav-container">
             <NavLink exact to="/" className="nav-logo" >
               {/* <img src={logo} width="20%" height="auto"/> */}
-              <span>DISABLED APES</span>
+              <span><img src="\Assets\logoo.png" alt="" className='img-fluid lolo'  /> DISABLED APES</span>
               {/* <i className="fa fa-code"></i> */}
             </NavLink>
-            <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <ul className={click ? "nav-menu active align-items-center" : "nav-menu"}>
               <li className="nav-item">
                 <Link
                   exact
                   to="/"
                   activeClassName="active"
-                  className="nav-links white"
+                  className="nav-links text-white"
                   onClick={click ? handleClick : null}
                 >
                   Home
@@ -97,7 +97,7 @@ const Navbar = () => {
                   exact
                   to="category"
                   activeClassName="active"
-                  className="nav-links white"
+                  className="nav-links text-white"
                   onClick={click ? handleClick : null}
                 >
                   About us
@@ -108,36 +108,42 @@ const Navbar = () => {
                   exact
                   to="team"
                   activeClassName="active"
-                  className="nav-links white"
+                  className="nav-links text-white"
                   onClick={click ? handleClick : null}
                 >
                   NFts
                 </Link>
               </li>
-       
+              <li className="nav-item">
+                {account ?
+                  <button className="connect-btn" type="button" onClick={disconnectWallet} >Disconnect</button>
+                  : <button className="connect-btn" type="button" onClick={connectWallet}>Connect Wallet</button>}
+                <div className='d-flex justify-content-center'> <button className="connect-btn ubbububu text-center" type="button" onClick={disconnectWallet} >Mint</button></div>
+                <p className="white margin_address">
+                  {account === undefined
+                    ? ""
+                    : account === null
+                      ? "None"
+                      : `${account.substring(0, 6)}...${account.substring(
+                        account.length - 4
+                      )}`}
+                </p>
+              </li>
+              <li className="nav-item ">
+                <div className='social-cons'>
+                  <a className="social_link"><img src={twitter} /> </a>
+
+                  <a className="social_link"><img src={discord} /> </a>
+                </div>
+              </li>
+
               {/* <li className="mt6"><a className="social_link"><img src={opensea} /> </a></li> */}
-              {account ?
-                <button className="connect-btn" type="button" onClick={disconnectWallet} >Disconnect</button>
-                : <button className="connect-btn" type="button" onClick={connectWallet}>Connect Wallet</button>}
-                <button className="connect-btn ubbububu" type="button" onClick={disconnectWallet} >Mint</button>
-              <p className="white margin_address">
-                {account === undefined
-                  ? ""
-                  : account === null
-                    ? "None"
-                    : `${account.substring(0, 6)}...${account.substring(
-                      account.length - 4
-                    )}`}
-              </p>
+
             </ul>
             {/* <div className={click ? "nav-menu active" : "nav-menu"}>
               <button className="connect-btn bbbbbbwcwe" type="button" onClick={disconnectWallet} >Mint</button>
             </div> */}
-            <div>
-                  <a className="social_link"><img src={twitter} /> </a>
 
-              <a className="social_link"><img src={discord} /> </a>
-            </div>
             <div className="nav-icon" onClick={handleClick}>
               <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
             </div>

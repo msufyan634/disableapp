@@ -25,17 +25,12 @@ const About = () => {
     }, [imgList])
     return (
         <>
-        <section className="main-about">
-            <div className="container">
+        <section className="main-about ptb">
+            <div className="container ptb">
                 <div className="row">
-
-                    <div className="col-sm-6">
-                        <div className="inner-img text-center ptb20">
-                            {/* <img src={currentimg} alt=""  className="img-fluid"/> */}
-                        </div>
-                    </div>
-                    <div className="col-sm-6">
-                        <div className="inner-content ptb20">
+                    <div className="col-sm-6"></div>
+                    <div className="col-sm-6  ">
+                        <div className="inner-content text-center ">
                             {/* <h6 className="red">ABOUT US</h6> */}
                             <h1 className="title">DISABLED APES  NFT</h1>
                             <p>Welcome to the Land of the Digital Cloud! The Digital Cloud.</p>
@@ -43,9 +38,14 @@ const About = () => {
                             {/* <p className="">Our vow as a team is to support this project as we grow through different series and additions to the Digi-Verse. We aim to release different editions and series as we build this universe, or Digi-Verse! </p>      */}
                         </div>
                     </div>
+                   
                 </div>
             </div>
         </section>
+        <div className="container-fluid d-sm-none d-block p-0">
+                        <img src="\Assets\center-orange-monk.png" className='img-fluid' alt="" />
+                    
+        </div>
     </>
     )
 }
