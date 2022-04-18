@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import king from '../../../Assets/King & Queen/king_1.png'
 import queen from '../../../Assets/King & Queen/queen_1.png'
 import military from '../../../Assets/Military/military_1.png'
@@ -8,7 +8,7 @@ import './about.scss';
 const About = () => {
 
     const [currentimg, setCurrentImg] = useState(king);
-    const imgList = [king, queen,military,politicians,sport ]        
+    const imgList = [king, queen, military, politicians, sport]
     useEffect(() => {
         let count = 0
         const interval = setInterval(() => {
@@ -25,28 +25,31 @@ const About = () => {
     }, [imgList])
     return (
         <>
-        <section className="main-about ptb">
-            <div className="container ptb">
-                <div className="row">
-                    <div className="col-sm-6"></div>
-                    <div className="col-sm-6  ">
-                        <div className="inner-content text-center ">
-                            {/* <h6 className="red">ABOUT US</h6> */}
-                            <h1 className="title">DISABLED APES  NFT</h1>
-                            <p>Welcome to the Land of the Digital Cloud! The Digital Cloud.</p>
-                            <p className="ptb20 text-center">The Digi-Verse is split into numerous realms. The first realm that will be released will be the Bush realm, the home of the Digi-Kiwi. 160 unique Digi Kiwi will be available for purchase on the Fantom Network, split into 8 different ranks! </p>
-                            {/* <p className="">Our vow as a team is to support this project as we grow through different series and additions to the Digi-Verse. We aim to release different editions and series as we build this universe, or Digi-Verse! </p>      */}
-                        </div>
-                    </div>
-                   
+            <section className="main-about">
+                <div className="container-fluid p-0">
+                <div className="col-sm-12 p-0">
+                                <img src="\Assets\newNft.png" alt="" className='img-fluid d-md-block h-100' />
+                            </div>
+                    {/* <div className="row"> */}
+                        {/* <div className="col-sm-6"></div> */}
+                        {/* <div className="col-sm-6"> */}
+                            {/* <div className="inner-content text-center "> */}
+                                {/* <h6 className="red">ABOUT US</h6> */}
+                                {/* <h1 className="title">DISABLED APES  NFT</h1> */}
+                                {/* <p>Welcome to the Land of the Digital Cloud! The Digital Cloud.</p> */}
+                                {/* <p className="ptb20 text-center">The Digi-Verse is split into numerous realms. The first realm that will be released will be the Bush realm, the home of the Digi-Kiwi. 160 unique Digi Kiwi will be available for purchase on the Fantom Network, split into 8 different ranks! </p> */}
+                                {/* <p className="">Our vow as a team is to support this project as we grow through different series and additions to the Digi-Verse. We aim to release different editions and series as we build this universe, or Digi-Verse! </p>      */}
+                            {/* </div> */}
+                        {/* </div> */}
+
+                    {/* </div> */}
                 </div>
-            </div>
-        </section>
-        <div className="container-fluid d-sm-none d-block p-0">
-                        <img src="\Assets\center-orange-monk.png" className='img-fluid' alt="" />
-                    
-        </div>
-    </>
+            </section>
+            {/* <div className="container-fluid d-sm-none d-block p-0">
+                <img src="\Assets\center-orange-monk.png" className='img-fluid' alt="" />
+
+            </div> */}
+        </>
     )
 }
 

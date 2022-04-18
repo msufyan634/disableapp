@@ -66,7 +66,9 @@ const Navbar = () => {
           <div className="nav-container">
             <NavLink exact to="/" className="nav-logo" >
               {/* <img src={logo} width="20%" height="auto"/> */}
-              <span><img src="\Assets\logoo.png" alt="" className='img-fluid lolo'  /> DISABLED APES</span>
+              {/* <span> */}
+                <img src="\Assets\newlogo.png" alt="" className='img-fluid lolo'  /> 
+                {/* DISABLED APES</span> */}
               {/* <i className="fa fa-code"></i> */}
             </NavLink>
             <ul className={click ? "nav-menu active align-items-center" : "nav-menu"}>

@@ -89,7 +89,10 @@ const Banner = () => {
 
                 <div className='biububuyb'>
                     <div className='container-fluid p-0' >
-                        <div className="row">
+                    <div className="col-sm-12 p-0">
+                                <img src="\Assets\newheader.png" alt="" className='img-fluid d-md-block h-100' />
+                            </div>
+                        {/* <div className="row">
                             <div className="col-md-6 p-0">
                                 <img src="\Assets\header-left.png" alt="" className='img-fluid d-md-block d-none h-100' />
                                 <img src="\Assets\header-left-mbil.png" alt="" className='img-fluid d-md-none d-block h-100' />
@@ -97,7 +100,7 @@ const Banner = () => {
                             <div className="col-md-6 order-md-1 p-0">
                                 <img src="\Assets\header-right.png" alt="" className='img-fluid' />
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     {/* <div>
                         <img src={monki} width="100%" />
